@@ -35,7 +35,8 @@ interface Path {
 
 const Router = () => {
   const dispatch = useDispatch();
-  const isAuth = useSelector((state: any) => state.auth.isAuth);
+  // const isAuth = useSelector((state: any) => state.auth.isAuth);
+  const isAuth = true
   const [list, setList] = useState<string[]>([]);
   const [routes, setRoutes] = useState({
     passengers: [],
