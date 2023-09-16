@@ -2,7 +2,6 @@ import { Suspense, lazy, useEffect, useState } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { websiteActions } from "../store/website/index";
-
 import MainLayout from "../layouts/MainLayout";
 import AuthLayout from "../layouts/AuthLayout";
 import Login from "../views/Auth/Login";
